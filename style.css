@@ -4,7 +4,7 @@ body{
     border: 1px red;
     
     background-repeat: no-repeat;
-    margin=0;
+    margin:0;
 
 }
 h1{
@@ -45,4 +45,23 @@ h2{
     background-position: right;
   }
   
-  
+  .single-experience{
+    box-shadow: 10px 10px 40px grey ;
+    border-radius: 5px;
+    height: 80%;
+    background-color:white; 
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,lightsalmon, tomato) ;
+    border-image-slice: 1;
+}
+.experience-area{ clear: both }
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat:no-repeat ;
+    background-position: left;
+}
+.middle{
+    text-align: center; 
+}
