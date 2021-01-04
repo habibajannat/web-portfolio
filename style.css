@@ -1,5 +1,11 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
+    background-image: url("images/top-banner.png");
+    border: 1px red;
+    
+    background-repeat: no-repeat;
+    margin=0;
+
 }
 h1{
     font-size: 50px;
@@ -7,12 +13,36 @@ h1{
 .name-highlight{
     color:orangered;
 }
-.half-width{
+.half-width {
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
-}
+  }
 .half-width img{
     width: 100%;
 }
+.link-button{
+    text-decoration: none;
+    background-color: orange;
+    padding:10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+}
+section{
+    height:500px;
+    padding-bottom: 150px;
+}
+h2{
+    font-size: 40px;
+}
+
+.dream-area {
+    background-image: url("../images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  
+  
